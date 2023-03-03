@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_green/screens/auth.dart';
 import 'package:go_green/screens/camera.dart';
+import 'package:go_green/screens/detail_items.dart';
 import 'package:go_green/screens/detail_marker.dart';
 import 'package:go_green/screens/detail_recycle.dart';
 import 'package:go_green/screens/map/map.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const DetailMarkerGoGreen(),
+      home: const DetailItemsGoGreen(),
     );
   }
 }
